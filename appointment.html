@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Appointment</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <!-- Header -->
+  <!-- Header -->
+  <header>
+    <h1>Welcome to Our Hospital</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors & Staff</a></li>
+        <li><a href="patient.html">Patient Information & Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h2>Book an Appointment</h2>
+      <p>Fill out the form below to request an appointment.</p>
+      <form action="waiting.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+          <option value="">Select department</option>
+          <option value="Casualty department">Casualty department</option>
+          <option value="Operating theatre (OT)">Operating theatre (OT)</option>
+          <option value="Intensive care unit (ICU)">Intensive care unit (ICU)</option>
+          <option value=" Anesthesiology department"> Anesthesiology department</option>
+          <option value=" ENT department"> ENT department</option>
+          <option value="General surgery">General surgery</option>
+          <option value="Neurology department">Neurology department</option>
+          <option value="Outpatient Department (OPD)">Outpatient Department (OPD)</option>
+        </select>
+        <br>
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Additional content about appointment process or instructions -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Footer content -->
+  </footer>
+
+</body>
+</html>
